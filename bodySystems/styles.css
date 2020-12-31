@@ -1,0 +1,193 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body, html{
+    height:100%;
+}
+nav{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 140px;
+    z-index: 2;
+    
+}
+nav a{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15 px;
+    padding: 12px 12px;
+    transition: 0.5s ease;
+    
+}
+nav a:hover{
+    background-color: #000;
+    opacity: 85%;
+}
+.gorsel{
+    height: 100%;
+    background-color: lightblue;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.bant{
+    height: 50%;
+    background-color: white;
+}
+#gor1{
+    background-image: url("ücüncü.jpg");
+
+}
+#gor2{
+    background-image: url("birinci.jpg");
+}
+#gor3{
+    background-image: url("ikinci.jpg");
+}
+#gor4{
+    background-image: url("dorduncu.jpg");
+}
+#gor5{
+    background-image: url("besinci.jpg");
+}
+#gor6{
+    background-image: url("altinci.jpg");
+}
+#gor7{
+    background-image: url("yedinci.jpg");
+}
+#gor8{
+    background-image: url("sekizinci.jpg");
+}
+#gor9{
+    background-image: url("dokuzuncu.jpg");
+}
+#gor10{
+    background-image: url("onuncu.jpg");
+}
+#gor11{
+    background-image: url("onbirinci.jpg");
+}
+
+
+.anaSayfa{
+    position: absolute;
+    float: left;
+}
+
+
+
+
+
+.anaYazi{
+    width: 100%;
+    height: 100%;
+    z-index:1 ;
+    text-align: center;
+    margin-top: 250px;
+    
+}
+.anaYazi h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 85px;
+    color: rgb(188, 236, 224);
+}
+.anaYazi p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+.anaYazi span{
+    color: rgb(238, 245, 243) ;
+    padding: 10px 10px;
+    background-color: rgb(48, 161, 95);
+    font-size: 12px;
+    border: 1px solid rgb(180, 230, 180);
+    border-radius:5px ;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.anaYazi span:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+
+}
+.anaFiltre{
+    width: 100%;
+    height: 100%;
+    background-color:#000;
+    z-index: 0;
+    opacity: 0.30;
+    
+}
+.bant1Yazi {
+    width: 100%;
+    height: 50%;
+    z-index:1 ;
+    text-align: center;
+    margin-top: 2px;
+
+}
+
+.bant1Yazi h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    
+}
+.bant1Yazi p{
+    color:#000;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background: #303036;
+    color: #d3d3d3;
+    height: 100px;
+    position: relative;
+}
+.footer .footer-content{
+    border: 1px solid red;
+    height: 99px;
+}
+.footer .footer-bottom{
+    background: #343a40;
+    color: #686868;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+
+}
+.a{
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-style: inherit;
+    border:black;
+    border-radius: 2px;
+    
+
+}
+.p{
+    font-size: 100px;
+    
+}
+
+
