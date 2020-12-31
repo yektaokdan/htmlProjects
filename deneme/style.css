@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Palanquin:400,600&subset=latin,latin-ext);
+
+body {
+    font-size: 13px;
+    font-family: 'Palanquin', sans-serif;
+    margin: 0;
+}
+
+
+header{
+background-color:purple;
+width:100%;
+position: fixed;background:#1d1c1d;
+z-index: 2;
+
+}
+.resim{
+    background: url(cool-background\ \(1\).png);
+    height: 400px;
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 50px;
+    text-shadow: 1px 4px 6px blue;
+}
+.ayir {
+    height: 38px;
+
+}
+.text{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 89;
+}
+.logo{
+    display: inline-block;
+    float: left;
+
+}
+.logo img{
+    height: 58px;
+    width: 58px;
+    margin-top: 6px;
+}
+.search{
+    display: inline-block;
+    float: right;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.menu {
+    border-bottom: 1px solid #ddd;
+}
+.menu-ul{
+    margin: 0;
+    padding: 0;
+}
+.menu-ul>a {
+    color:#000;
+}
+.menu-ul>:hover{
+    color: #cc181e;
+}
+.menu-li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 7px;
+    border-bottom:3px solid red;
+}
+.menu-li :hover {
+    border-bottom: 3px #cc181e;
+}
+.isearch {
+    padding: 8px,8px,18px;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solidrgb(20, 3, 3);
+    width: 70px;
+    color: rgb(8, 1, 1);
+    outline: 0;
+    font-size: 13px;
+    font-family:fantasy;
+    margin-top: 6px;
+    transition-duration: 0.3s;
+    transition-property: width,color;
+
+}
+.isearch:focus{
+    width: 300px;
+    border-bottom: 1px solid #cc181e;
+    
+}
+footer{
+    width: 100%;
+    margin: 0 auto 0;
+    padding: 25px 0 25px 0;
+    background: #121212
+    color:#fff;
+
+}
+
+h2.title {
+    font-size: 18px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+
+}
+span{
+    display: inline-block;
+    position: relative;
+
+}
+.line:before,.line:after{
+    content: '';
+    color:#fff;
+    border: 1px solid;
+    position: absolute;
+    right: 100%;
+    margin-right: 10px;
+    top: 9px;
+    width: 20px;
+
+
+}
+
+.line:before{
+    left: 100%;
+    margin-left: 10px;
+}
+.clear{
+    clear: both;
+}
+.column-25{
+    width: 24%;
+    margin-right: 1%;
+    float: left;
+    display: inline-block;
+    text-align: center;
+
+}
