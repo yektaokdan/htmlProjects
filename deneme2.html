@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Deneme</title>
+</head>
+<body>
+    <form action="/Home/Register">
+      <hr>
+       <h3>Kayıt Bilgileriniz</h3>
+       
+        <p>Kullanıcı Adı :<input type="text" placeholder="kullanıcı adı giriniz" required></p>
+        <p>Parola : <input type="password" placeholder="parola giriniz" required></p>
+        <p>Email: <input type="email" required placeholder="email giriniz"></p>
+        <p>Beni Hatırla <input type="checkbox"></p>
+        
+        <hr>
+        <h3>Kişisel Bilgileriniz</h3>
+        <p>Ad : <input type="text" required placeholder="adınızı giriniz"></p>
+        <p>Soyad: <input type="text" required placeholder="soyadınızı giriniz"></p>
+        <p>Şehir: <select name="sehir" id="">
+            <option value="">İstanbul</option>
+            <option value="">Ankara</option>
+            <option value="">Kayseri</option>
+            <option value="">İzmir</option>
+        </select></p>
+        <p>Hobileriniz:
+        <input type="checkbox">Sinema
+        <input type="checkbox">Spor
+        <input type="checkbox">Bisiklet
+        <input type="checkbox">Gezmek       
+        </p>
+        
+        <p>
+            Cinsiyet:
+            <input type="radio" name="cinsiyet">Erkek
+            <input type="radio" name="cinsiyet">Kadın
+        </p>
+        <p>En Sevdiğiniz Renk? <input type="color" value="#ff0000"></p>
+        <p><input type="submit" value="Kaydet">
+            <input type="reset" value="Sıfırla">
+        </p>
+        
+        
+        
+        
+        
+        
+    </form>
+</body>
+</html>

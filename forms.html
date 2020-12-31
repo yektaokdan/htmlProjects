@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formlar</title>
+    
+</head>
+<body>
+  
+    <form action="/Home/Register">
+        <p>
+        Ad: <input type="text" name="ad" placeholder="Adınızı Giriniz" required>
+        </p>
+        
+        <p>
+        Soyad: <input type="text" name="soyad" placeholder="Soyadınızı Giriniz" required>
+        </p>
+        <p>
+        Doğum Gününüz:    <input type="date" name="bday">
+        </p>
+        
+        <p>
+        E Posta: <input type="email" name="email" required>
+        </p>
+        
+         <p>
+        Beni Hatırla <input type="checkbox" name="benihatirla">
+        </p>
+        <p>
+            Erkek <input type="radio" name="cinsiyet">
+            Kadın <input type="radio" name="cinsiyet">
+        </p>
+        
+        <p>
+        Hobiler <br>
+         Sinema <input type="checkbox" name="hobi">
+         Spor <input type="checkbox" name="hobi">
+         Bisiklet <input type="checkbox" name="hobi">
+        </p>
+        <p>
+            <select name="sehir">
+                <option>Kayseri</option>
+                <option>İstanbul</option>
+                <option>Ankara</option>
+            </select>
+        </p>
+        
+         <p>
+            <select multiple name="sehirler">
+                <option>Kayseri</option>
+                <option>İstanbul</option>
+                <option>Ankara</option>
+            </select>
+        </p>
+        <p>
+            Bir değer giriniz (1-5 arası olmalıdır):
+            <input type="number" min="1" max="5">
+        </p>
+        <p>
+         Favori Rengin Nedir ? 
+         <input type="color" value="#ff0000" name="favcolor">
+         
+        </p>
+        <input type="submit" value="Kaydet">
+        <input type="reset" value="Sıfırla">
+    </form>
+        
+</body>
+</html>
